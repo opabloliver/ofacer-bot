@@ -1,1 +1,2 @@
-# ofacer-bot
+# Dependencias --
+``pip install seleneum``
