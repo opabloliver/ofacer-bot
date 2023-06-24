@@ -53,10 +53,10 @@ def martin_gale(gale,ultimo):
     elif ultimo_ == 0: 
         enviar_mensagem(win_branco)
         return True
-            
+#Por token do bot e id do grupi aqui            
 def enviar_mensagem(mensagem):
-    bot_token = '6030593043:AAE6bJrrmKeUnS5QqiPDXHc6a614Sg0o8Ko'
-    chat_id = '5519786936'
+    bot_token = 'Token-Bot-Aqui'
+    chat_id = 'ID-do-Grupo-aqui'
     url_blaze = '🎰 [Blaze](https://blaze.com/pt/games/double)'
     url = f'https://api.telegram.org/bot{bot_token}/sendMessage?chat_id={chat_id}&text={mensagem}\n{url_blaze}&parse_mode=Markdown'
     requests.get(url)
