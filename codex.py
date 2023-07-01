@@ -1,3 +1,4 @@
+##  Lembrar de  exttair  as dependencias 
 import undetected_chromedriver as uc
 from selenium import webdriver
 from selenium.webdriver.remote.webdriver import By
